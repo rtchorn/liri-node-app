@@ -49,11 +49,9 @@ function twitter(){
       console.log(error);
     }
     else {
-      // loop fo tweets
       console.log("\n/////////////////TWEET ME////////////////\n");
       for(i=0; i< tweets.length; i++){
-        // to show order number
-        console.log((i+1) + ". " + tweets[i].text);
+       console.log((i+1) + ". " + tweets[i].text);
       }
     }
   });
@@ -129,3 +127,4 @@ var urlDefault = 'http://www.omdbapi.com/?t=' + movieDefault + '&y=&plot=short&r
       });
     } 
   } 
+
